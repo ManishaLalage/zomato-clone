@@ -150,7 +150,7 @@ const LargeTabs = () => {
 const FoodTab = () => {
   return (
     <div>
-      {/* <MobileTabs /> */}
+      <MobileTabs />
       <LargeTabs />
     </div>
   );
