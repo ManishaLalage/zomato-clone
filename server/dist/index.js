@@ -54,7 +54,7 @@ zomato.use("/user", _user.default);
 zomato.use("/menu", _menu.default);
 zomato.use("/order", _order.default);
 zomato.use("/review", _review.default);
-const PORT = 4003;
+const PORT = 4005;
 zomato.listen(PORT, () => {
   (0, _connection.default)().then(() => {
     console.log("Server is running !!!");
